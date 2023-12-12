@@ -8,4 +8,4 @@ from rest_framework.decorators import api_view
 
 @api_view(['GET'])
 def health_check(request):
-    return HttpResponse("All Ok!Don't worry", status=200)
+    return HttpResponse("All Ok!Don't worry!", status=200)
